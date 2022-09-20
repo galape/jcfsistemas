@@ -130,8 +130,7 @@
 
 .marketing {
   background-color: #ECEBE9;
-  padding-bottom: 50px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .marketing h5 {
   text-align: center;
@@ -142,18 +141,16 @@
 }
 .marketing p {
   text-align: center;
-  padding: 0 0 0 20px;
+  padding: 0 20px 0 20px;
   box-sizing: content-box;
   color: #3F3E3E;
 }
 .marketing .marcasfondo {
   background-color: white;
+  padding: 20px 0 30px 0;
 }
-.marketing .marcasfondo .marcas img {
+.marketing .marcas img {
   height: 50px;
-}
-.marketing .marcasfondo .marcas img .marcas:hover {
-  transform: scale(1.2);
 }
 
 .secciones {
