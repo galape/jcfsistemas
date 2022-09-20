@@ -1,0 +1,25 @@
+.botones {
+    background-color:$mainColor;
+    border: 0;
+
+    .botones a:hover {
+        opacity: 0.8;
+    }
+}
+
+
+.botonesDesabilitados {
+    background-color: gray;
+    border: 0;
+
+    .botonesDesabilitados a:hover {
+        opacity: 0.8;
+    }
+}
+
+
+
+.botonesactivos {
+    text-decoration: none;
+    color: white;
+}

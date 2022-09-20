@@ -1,0 +1,45 @@
+.contacto {
+    width: 50rem;
+    padding: 50px;
+}
+
+.cuerpo {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa{
+    -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+}
+
+
+
+ @-webkit-keyframes scale-in-ver-center {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-ver-center {
+    0% {
+      -webkit-transform: scaleY(0);
+              transform: scaleY(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  

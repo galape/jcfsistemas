@@ -1,0 +1,121 @@
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+    .clientes {
+        justify-content: left;
+        background-color: lightgrey;
+        height: 40px;
+    }
+
+    .navbar-collapse {
+        background-color: $mainColor;
+        width: 100%;
+        padding: 0 20px 20px;
+        position: absolut;
+        z-index: 1;
+    }
+
+    .destacado {
+        height: 80vh;
+    }
+
+    .cuerpo {
+        display: block;
+    }
+
+    .contacto {
+        width: 100%;
+    }
+
+    .mapa {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+
+    .mapa iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .card {
+        border: 0;
+    }
+
+    .marcas{
+        display: flex;
+        justify-content: center;
+    }
+
+      
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+    .clientes {
+        justify-content: left;
+        background-color: lightgrey;
+        height: 40px;
+    }
+
+    .navbar-collapse {
+        background-color: $mainColor;
+        width: 100%;
+        padding: 0 20px 20px;
+        position: absolut;
+        z-index: 1;
+    }
+
+    .destacado {
+        height: 80vh;
+    }
+
+    .cuerpo {
+        display: block;
+    }
+
+    .contacto {
+        width: 100%;
+    }
+
+
+    .mapa {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+    }
+
+    .mapa iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .card {
+        border: 0;
+    }
+
+    .marcas{
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
